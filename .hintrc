@@ -1,0 +1,42 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "axe/name-role-value": [
+      "default",
+      {
+        "link-name": "off",
+        "button-name": "off"
+      }
+    ],
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "scrollbar-gutter",
+          "scrollbar-width",
+          "scrollbar-width: none",
+          "scrollbar-gutter: stable",
+          "overflow: clip",
+          "overflow-clip-margin",
+          "contain-intrinsic-height",
+          "animation-timeline",
+          "animation-timeline: scroll(root)",
+          "animation-timeline: scroll(:root)",
+          "animation-timeline: scroll(nearest)",
+          "animation-timeline: scroll(nearest block)",
+          "animation-timeline: scroll( block)"
+        ]
+      }
+    ],
+    "no-inline-styles": "off",
+    "axe/structure": [
+      "default",
+      {
+        "listitem": "off"
+      }
+    ],
+    "detect-css-reflows/composite": "off"
+  }
+}
